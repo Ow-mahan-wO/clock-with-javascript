@@ -2,11 +2,12 @@
 
 Languages ​​used:
 
--Html
+_Html
 
--Css
+_Css
 
--Javascript
+_Javascript
 
 github page link:
 
+https://ow-mahan-wo.github.io/clock-with-javascript/
