@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#0f172a;
+    color:white;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top: 12rem;
+}
+.clock{
+    display: grid;
+    border:1px solid rgb(255, 255, 255) ;
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(6,100px);
+    font-size: 2rem;
+}
+.clock__number3{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    justify-content: end;
+    margin-left: 9.8rem;
+    margin-top: .9rem;
+}
+.clock__number8{
+    display: grid;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-content: center;
+}
+.clock__number1{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+.clock__number2{
+    display: grid;
+    grid-column: 5/6;
+    grid-row: 2/3;
+    align-items: center;
+    margin-left: 0.8rem;
+    margin-bottom: 2rem;
+}
+.clock__number7{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    justify-content: center;
+    margin-right: 3rem;
+}
+.clock__number4{
+    display: grid;
+    align-items: center;
+    grid-column: 5/6;
+    grid-row: 4/5;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.clock__number5{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 5/6;
+    justify-content: center;
+}
+.clock__number6{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-top: 1.8rem;
+}
+.clock__number10{
+    display: grid;
+    grid-column:1/2;
+    grid-row:2/3;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.7rem;
+    margin-bottom: 2rem;
+}
+.clock__number9{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-top: 0.9rem;
+}
+.clock__number11{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 0.8rem;
+    margin-right: 2rem;
+}
+.clock__number12{
+    display: grid;
+    grid-column:3/4;
+    grid-row:1/2;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.clock__min{
+    margin-left: -6rem;
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 278%;
+    height: 3%;
+    background-color: 50% red;
+    transform: rotate(0deg);
+    margin-top: 2rem;
+    background: rgb(255,139,5);
+    background: linear-gradient(90deg, rgb(43, 255, 5) 52%,
+     rgba(43, 255, 5) 52%, rgba(255,255,255,0) 52%, rgba(115,0,255,0) 53%,
+    rgba(255,255,255,0) 53%);
+}
+.clock__sec{
+    margin-left: -7rem;
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 315%;
+    height: 3%;
+    background-color: 50% red;
+    transform: rotate(0deg);
+    margin-top: 2rem;
+    background: rgb(5, 172, 255);
+background: linear-gradient(90deg, rgba(5, 172, 255) 52%,
+ rgba(5, 172, 255) 52%, rgba(255,255,255,0) 52%,
+  rgba(115,0,255,0) 53%, rgba(255,255,255,0) 53%);
+}
+.clock__hours{
+    margin-left: -7rem;
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 315%;
+    height: 3%;
+    background: rgb(255, 0, 0);
+    transform: rotate(0deg);
+    margin-top: 2rem;
+background: linear-gradient(90deg, rgb(255, 0, 0) 52%,
+ rgb(255, 0, 0) 52%, rgba(255,255,255,0) 52%, rgba(115,0,255,0) 53%,
+ rgba(255,255,255,0) 53%);
+}
+.clock__orbit{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    z-index: 1000;
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+}
+.digital_clock{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 17rem;
+    justify-content: center;
+    margin-left: 3px;
+    align-items: center;
+}
+.time{
+    border-radius: 1rem;
+    padding: .8rem;
+    background-color: white;
+    color: black;
+}
