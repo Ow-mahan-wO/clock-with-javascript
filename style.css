@@ -188,3 +188,9 @@ background: linear-gradient(90deg, rgb(255, 0, 0) 52%,
     background-color: white;
     color: black;
 }
+@media only screen and (max-width:604px) {
+    .clock{
+        margin-left: 5rem;
+        border: none;
+    }
+}
